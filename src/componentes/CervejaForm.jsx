@@ -22,7 +22,10 @@ const CervejaForm = () => {
                   <div key={type} className="mb-3">
                     <Form.Check type={type} id={`check-api-${type}`}>
                       <Form.Check.Input type={type} isValid />
-                      <Form.Check.Label> {`Germânica`} </Form.Check.Label>
+                      <Form.Check.Label className="label-descricao">
+                        {" "}
+                        {`Germânica`}{" "}
+                      </Form.Check.Label>
                     </Form.Check>
                   </div>
                 ))}
@@ -34,7 +37,10 @@ const CervejaForm = () => {
                   <div key={type} className="mb-3">
                     <Form.Check type={type} id={`check-api-${type}`}>
                       <Form.Check.Input type={type} isValid />
-                      <Form.Check.Label> {`Belga`} </Form.Check.Label>
+                      <Form.Check.Label className="label-descricao">
+                        {" "}
+                        {`Belga`}{" "}
+                      </Form.Check.Label>
                     </Form.Check>
                   </div>
                 ))}
@@ -46,7 +52,10 @@ const CervejaForm = () => {
                   <div key={type} className="mb-3">
                     <Form.Check type={type} id={`check-api-${type}`}>
                       <Form.Check.Input type={type} isValid />
-                      <Form.Check.Label> {`Americana`} </Form.Check.Label>
+                      <Form.Check.Label className="label-descricao">
+                        {" "}
+                        {`Americana`}{" "}
+                      </Form.Check.Label>
                     </Form.Check>
                   </div>
                 ))}
@@ -58,7 +67,10 @@ const CervejaForm = () => {
                   <div key={type} className="mb-3">
                     <Form.Check type={type} id={`check-api-${type}`}>
                       <Form.Check.Input type={type} isValid />
-                      <Form.Check.Label> {`Brasileira`} </Form.Check.Label>
+                      <Form.Check.Label className="label-descricao">
+                        {" "}
+                        {`Brasileira`}{" "}
+                      </Form.Check.Label>
                     </Form.Check>
                   </div>
                 ))}
@@ -70,7 +82,10 @@ const CervejaForm = () => {
                   <div key={type} className="mb-3">
                     <Form.Check type={type} id={`check-api-${type}`}>
                       <Form.Check.Input type={type} isValid />
-                      <Form.Check.Label> {`Britânica`} </Form.Check.Label>
+                      <Form.Check.Label className="label-descricao">
+                        {" "}
+                        {`Britânica`}{" "}
+                      </Form.Check.Label>
                     </Form.Check>
                   </div>
                 ))}

@@ -1,3 +1,8 @@
+.label-descricao {
+  padding-left: 5px;
+  color: black !important;
+}
+
 .rodape {
   margin: auto;
   width: 100%;
@@ -15,4 +20,5 @@
 
 .formulario {
   text-align: left;
+  margin: 1;
 }
