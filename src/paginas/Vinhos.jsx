@@ -6,7 +6,7 @@ const Vinhos = () => {
 	return (
 		<>
 			<div className="conteudo">
-				<h4>Vinhos da Babi</h4>
+				<h4>Vinhos</h4>
 				<hr />
 				<VinhoForm />
 				<br />
