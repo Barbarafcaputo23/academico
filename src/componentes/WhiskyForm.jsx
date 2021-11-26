@@ -81,6 +81,11 @@ const WhiskyForm = () => {
               controlId="formNomeWhisky"
             ></Form.Group>
             <br />
+            <Form.Group className="mb-3" controlId="formNomeWhisky">
+              <Form.Label>Ano do Whisky</Form.Label>
+              <Form.Control type="text" />
+            </Form.Group>
+            <br />
 
             <Button variant="primary" type="incluir">
               {" "}
